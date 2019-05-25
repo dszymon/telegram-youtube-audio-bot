@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.1",
   "description": "Share your favorite songs from YouTube with ease",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "NODE_ENV=production node ./app.js"
+    "dev": "nodemon ./src/app.js",
+    "start": "NODE_ENV=production node ./src/app.js"
   },
   "repository": {
     "type": "git",
